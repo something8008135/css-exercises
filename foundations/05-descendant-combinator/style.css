@@ -1,0 +1,8 @@
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* I forgot I should not use period before 'element selectors'. So failed few times and done with 'class selectors. But now I understand.  */
