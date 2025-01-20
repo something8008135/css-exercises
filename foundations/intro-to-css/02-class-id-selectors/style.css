@@ -1,0 +1,22 @@
+
+.odds {
+	background-color:#FCA69C;
+	font-family: "Verdana, DejaVu Sans, sans-serif";
+}
+
+#blue {
+	color:blue;
+	font-size:36px;
+}
+
+
+.bigOdd {
+	font-size:24px;
+}
+
+
+#fourthElement {
+	font-size:24px;
+	font-weight:bold;
+	background-color:#88E788;
+}
