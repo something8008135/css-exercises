@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
+
+
+
+/*
+body{background-color:gray;}
+.container{background-color:darkGreen}
+.header{background-color:red;}
+.content{background-color:purple;}
+.footer{background-color:yellow;}
+*/
+
+
+body{
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures it takes the full screen height */
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1; /* Makes content take up all available space */
+  gap: 20px;
+}
+
+
+.header, .footer{
+	display:flex;
+	justify-content:space-between;
+
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.footer{
+	background-color:#efefef;
+}
+
+
+ul{
+	list-style-type:none;
+}
+
+a {
+	text-decoration:none;
+	color:gray;
+}
+
+.left-links, .right-links{
+	display:flex;
+	gap:20px;
+	padding:0px;
+
+}
+/*
+.left-links{
+	padding-left:20px;
+}
+
+.right-links{
+	padding-right:20px;
+}
+*/
+
+.input {
+  margin: 0px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button{
+	padding:8px;
+}
+
+
